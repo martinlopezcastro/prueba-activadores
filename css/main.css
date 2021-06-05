@@ -1,0 +1,68 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Century Gothic;
+}
+
+.home {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.in-flex {
+    flex: 1;
+    min-width: 250px;
+}
+
+.in-flex:first-child {
+    flex: 2;
+    padding: 60px;
+    background-color: #fff;
+    margin: 20px;
+    margin-bottom: 0px;
+    text-align: center;
+    font-family: Century Gothic;
+}
+
+.in-flex div {
+    padding: 25px;
+    color: #4DB74C;
+    background-color: black;
+    margin: 20px;
+}
+
+#home {
+    background-color: transparent;
+}
+
+#home h1 {
+    font: 41.6px Rubik, sans-serif;
+    color: #4DB74C;
+}
+
+.entrar {
+    font: 16px Rubik, sans-serif;
+    background-color: transparent;
+    height: 50px;
+    width: 120px;
+    border-radius: 2em;
+    border: 3px solid #276A08;
+    color: #276A08;
+}
+
+.logo {
+    position: absolute;
+    margin: 0px;
+    left: 20px;
+    height: 78px;
+    width: 78px;
+}
+
+.autor {
+    padding: 10px;
+}
+
+#vacio {
+    background-color: transparent;
+}
